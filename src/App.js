@@ -1,6 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
 import { useEffect, useState } from 'react';
+import Countries from './components/Countries/Countries';
+import Person from './components/person/person';
+import Header from './components/Header/Header';
+{ } //link hoache compo.
+function App() {
+  return (
+    <div className="App">
+        <Header></Header> {/**person component k call kora hoache */}
+       <Countries></Countries> {/**countries component k call kora  */}
+       <Person></Person> {/**person component k call kora hoache */}
+     
+    </div>
+  );
+}
+
+{/**** // video ---- 2
 
 function App() {
   return (
@@ -9,7 +25,6 @@ function App() {
     </div>
   );
 }
-{/* <Countries></Countries> */}
 function LoadCountries(){
   const [countries,setCountries] = useState([])
   useEffect( () => {
@@ -35,5 +50,7 @@ function Country(props){
     </div>
   )
 }
+
+*/}
 
 export default App;

@@ -3,7 +3,7 @@ import React from 'react';
 const Countries = () => {
     return (
         <div>
-            <h1>hello new components</h1>
+            <h2>hello new file country components : 2</h2>
         </div>
     );
 };
