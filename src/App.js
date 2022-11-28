@@ -1,5 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+
+{ } //link hoache compo.
+function App() {
+  return (
+    <div className="App">
+    </div>
+  );
+}
+
+{/** video ----- 3
+import logo from './logo.svg';
+import './App.css';
 import { useEffect, useState } from 'react';
 import Countries from './components/Countries/Countries';
 import Person from './components/person/person';
@@ -8,13 +20,14 @@ import Header from './components/Header/Header';
 function App() {
   return (
     <div className="App">
-        <Header></Header> {/**person component k call kora hoache */}
-       <Countries></Countries> {/**countries component k call kora  */}
-       <Person></Person> {/**person component k call kora hoache */}
-     
-    </div>
-  );
-}
+        <Header></Header> //person component k call kora hoache */
+  //      <Countries></Countries> //**countries component k call kora  */}
+    //    <Person></Person> //**person component k call kora hoache */}
+      
+ //    </div>
+//   );
+ 
+ /*}
 
 {/**** // video ---- 2
 
