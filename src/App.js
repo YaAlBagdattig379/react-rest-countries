@@ -10,7 +10,7 @@ function App() {
   );
 }
 
-{/** video ----- 3
+/** video ----- 3
 import logo from './logo.svg';
 import './App.css';
 import { useEffect, useState } from 'react';
@@ -65,6 +65,6 @@ function Country(props){
   )
 }
 
-*/}
+*/
 
 export default App;
