@@ -9,6 +9,7 @@ function App() {
     </div>
   );
 }
+{/* <Countries></Countries> */}
 function LoadCountries(){
   const [countries,setCountries] = useState([])
   useEffect( () => {
