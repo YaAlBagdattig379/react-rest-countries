@@ -1,10 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-
-{ } //link hoache compo.
+import Countries from './components/Countries/Countries';
+//{ } //link hoache compo.
 function App() {
   return (
     <div className="App">
+      {/* <Countries></Countries> */}
     </div>
   );
 }
