@@ -13,8 +13,9 @@ const Countries = () => {
         <div>
             <h1>total countries numbs : {countries.length}</h1>
             {/* to show data on UI  */}
-            {
-              countries.map(country => <Country name={country.name.common} population={country.population} area={country.area}></Country>)
+            {// to use Map so each and every data never been missed out.
+              countries.map(country => <Country country={country}></Country> )
+                // name={country.name.common} population={country.population} area={country.area} region={country.region} ></Country>) 
             }
         </div>
     );
