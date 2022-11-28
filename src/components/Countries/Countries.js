@@ -16,8 +16,9 @@ const Countries = () => {
            <div className='countries-container'> {/* to show data on UI  */}
                 {
                 // to use Map so each and every data never been missed out.
-                 countries.map(country => <Country country = {country}></Country>)
-                
+                 countries.map(country => <Country 
+                    country = {country}
+                    key = {country.ccn3} ></Country>)
                 }
             </div>
         </div>
