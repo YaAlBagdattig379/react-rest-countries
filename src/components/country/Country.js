@@ -2,6 +2,7 @@ import React from 'react';
 import'./Country.css'
 const Country = (props) => {
     // console.log(props.country.name.common)
+    
     // desctruction are used in here to reduce codes 
     const {name ,population,area, region} = props.country;
     return (
