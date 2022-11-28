@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Countries from './components/Countries/Countries';
+// import Countries from './components/Countries/Countries';
 //{ } //link hoache compo.
 function App() {
   return (
