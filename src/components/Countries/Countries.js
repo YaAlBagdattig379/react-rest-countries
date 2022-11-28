@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Country from '../country/Country';
+import './Countries.css'
 
 const Countries = () => {
     const [countries,setCountries] = useState([]); // declare 'useState'
@@ -11,14 +12,32 @@ const Countries = () => {
     },[]); 
     return (
         <div>
-            <h1>total countries numbs : {countries.length}</h1>
-            {/* to show data on UI  */}
-            {// to use Map so each and every data never been missed out.
-              countries.map(country => <Country country={country}></Country> )
-                // name={country.name.common} population={country.population} area={country.area} region={country.region} ></Country>) 
-            }
+           <h1>total countries numbs : {countries.length}</h1>
+           <div className='countries-container'> {/* to show data on UI  */}
+                {
+                // to use Map so each and every data never been missed out.
+                 countries.map(country => <Country country = {country}></Country>)
+                
+                }
+            </div>
         </div>
     );
 };
-
 export default Countries;
+    /**
+     * return (
+        <div >
+            <h1>total countries numbs : {countries.length}</h1>
+            {/* to show data on UI  */
+            // to use Map so each and every data never been missed out.
+               // <div className='countries-container'>
+          //      countries.map(country => <Country country = {country}></Country> )
+            //    {/* /// name={country.name.common} population={country.population} area={country.area} region={country.region} ></Country>) */}
+//            </div>
+               
+  //          }
+  //      </div>
+//    );
+  //   **/
+
+
